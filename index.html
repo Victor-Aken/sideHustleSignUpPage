@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lobster&family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&family=Open+Sans:wght@300&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left_section">
+            <div class="logo_container">
+               <div class="logo"><img src="odin-lined.png" alt="" style="height: 80px;"></div> 
+               <p>ODIN</p>
+            </div>
+        </div>
+        <div class="right_section">
+            <div class="right_top">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+                Sign up now to get started.
+                <br><br>
+                You know you want to.
+                </p>
+            </div>
+                <form action="">
+                    <p style="font-size: 20px;">Let's do this!</p>
+                    <div  class="each_input_container" style="display: flex; margin-bottom: 20px;">
+                        <div>
+                            <label for="">FIRST NAME</label><br>
+                            <input type="text">
+                        </div>
+                        <div class="each_input_container_two">
+                            <label for="">LAST NAME</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="each_input_container" style="display: flex; margin-bottom: 20px;">
+                        <div>
+                            <label for="">EMAIL</label><br>
+                            <input type="text">
+                        </div>
+                        <div class="each_input_container_two">
+                            <label for="">PHONE NUMBER</label><br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="each_input_container" style="display: flex; margin-bottom: 20px;">
+                        <div>
+                            <label for="">PASSWORD</label><br>
+                            <input id="password" type="password">
+                            <ul id="error_msg"></ul>
+                        </div>
+                        <div class="each_input_container_two">
+                            <label for="">CONFIRM PASSWORD</label><br>
+                            <input id="confirm_password" type="password">
+                        </div>
+                    </div>
+                </form>
+            <div class="right_bottom">
+                <div style="padding-left: 40px; margin-top: 30px;">
+                    <button id="create_account">
+                        Create Account
+                    </button>
+                </div>
+                <p style="padding-left: 40px; font-family: 'Roboto';">Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
