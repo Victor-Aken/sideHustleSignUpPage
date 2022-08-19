@@ -190,6 +190,7 @@ input{
 
     .right_section form{
         height: 500px;
+        padding-left: 20px;
     }
 
     .right_top p{
